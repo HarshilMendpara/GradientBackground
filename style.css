@@ -58,6 +58,7 @@
 .button:hover {
   height: 41px;
   width: 187px;
+  background: #a0d5f0;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
@@ -83,6 +84,11 @@
     height: 22px;
     width: 40px;
   }
+  .button:hover {
+    height: 30px;
+    width: 130px;
+    background: #a0d5f0;
+  }
 }
 
 @media (max-width: 300px) {
@@ -105,5 +111,10 @@
     padding: 0;
     height: 18px;
     width: 32px;
+  }
+  .button:hover {
+    height: 27px;
+    width: 110px;
+    background: #a0d5f0;
   }
 }
